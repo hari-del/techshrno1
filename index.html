@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techshr - Empower Your Skills</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">Techshr</div>
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button> <!-- Hamburger Icon -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+<div class="h">
+    <section id="hero">
+        
+      
+    </section>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techshr Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="courses-carousel">
+        <h2 class="typing-effect">click here to register to the Course</h2>
+
+        <div class="carousel-container">
+            <button class="prev-btn">&lt;</button>
+            <div class="carousel-track">
+                <!-- Python Course -->
+                <div class="course">
+                    <img src="python.jpg" alt="Python Course" class="clickable" onclick="openPopup('python-popup')">
+                </div>
+                <!-- Digital Electronics Course -->
+                <div class="course">
+                    <img src="DE.jpg" alt="Mathematics Course" class="clickable" onclick="openPopup('DE-popup')">
+                </div>
+                <!-- Java Course -->
+                <div class="course">
+                    <img src="java.jpg" alt="Java Course" class="clickable" onclick="openPopup('Java-popup')">
+                </div>
+                <!-- HTML Course -->
+                <div class="course">
+                    <img src="htmlc.jpg" alt="HTML Course" class="clickable" onclick="openPopup('html-popup')">
+                </div>
+                <!-- Mathematics Course -->
+                <div class="course">
+                    <img src="m.jpeg" alt="Mathematics Course" class="clickable" onclick="openPopup('math-popup')">
+                </div>
+                
+            </div>
+            <button class="next-btn">&gt;</button>
+        </div>
+    </div>
+
+    <!-- Popup for Python -->
+    <div id="python-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('python-popup')">&times;</span>
+            <div class="popup-left">
+                <img src="python.jpg" alt="Python Course">
+            </div>
+            <div class="popup-right">
+                <h3>Python Course</h3>
+                <p>We at Techshr provide world-class Python training for beginners and advanced learners for just ₹399. Learn Python from industry experts through interactive sessions.</p>
+               
+                <a href="https://forms.gle/cqPmxQpd7g7jFV7y7" target="_blank" class="register-btn">Register Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- Popup for DE -->
+    <div id="DE-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('DE-popup')">&times;</span>
+            <div class="popup-left">
+                <img src="DE.jpg" alt="Java Course">
+            </div>
+            <div class="popup-right">
+                <h3>Digital Electronics</h3>
+                <p>Master Digital Electronics with our online course for just ₹399. Techshr brings you comprehensive Digital Electronics training.</p>
+                
+                <a href="https://forms.gle/phCE7hPUeZsm3jKf9" target="_blank" class="register-btn">Register Now</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Popup for Java -->
+    <div id="Java-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('Java-popup')">&times;</span>
+            <div class="popup-left">
+                <img src="java.jpg" alt="Java Course">
+            </div>
+            <div class="popup-right">
+                <h3>Java Course</h3>
+                <p>Master Java programming with our online course for just ₹399. Techshr brings you comprehensive Java training for web and app development.</p>
+                
+                <a href="https://forms.gle/T94ruz8GTCjVHMXx7" target="_blank" class="register-btn">Register Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup for HTML -->
+    <div id="html-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('html-popup')">&times;</span>
+            <div class="popup-left">
+                <img src="htmlc.jpg" alt="HTML Course">
+            </div>
+            <div class="popup-right">
+                <h3>HTML Course</h3>
+                <p>Learn the foundation of web development with HTML for just ₹399. This course is designed to make you a pro in web design.</p>
+                <!-- Register Now Button -->
+                <a href="https://forms.gle/eYbWdUaNf7RQWxRC6" target="_blank" class="register-btn">Register Now</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Popup for Mathematics -->
+    <div id="math-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('math-popup')">&times;</span>
+            <div class="popup-left">
+                <img src="m.jpeg" alt="Mathematics Course">
+            </div>
+            <div class="popup-right">
+                <h3>Mathematics Course</h3>
+                <p>Enhance your mathematical skills with our specially curated Mathematics course for just ₹399. Perfect for students and professionals alike.</p>
+                
+                <a href="https://forms.gle/6rEk2ccLcCc85cAGA" target="_blank" class="register-btn">Register Now</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+    
+    
+    
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>
+                At <strong>Techshr</strong>, our mission is to empower students with industry-relevant skills that prepare them for real-world challenges. Founded with a passion for bridging the gap between education and professional expertise, we offer a carefully curated range of courses designed to help students succeed in today's competitive landscape. From foundational programming languages like <strong>Python and Java</strong> to essential web technologies such as <strong>HTML, CSS, and JavaScript</strong>, we ensure that our learners gain practical knowledge they can apply immediately. Additionally, we cover <strong>Mathematics</strong>, a core subject that sharpens analytical thinking and problem-solving skills.
+            </p>
+            <p>We also Provide the acces to gain the knowledge in <strong>Digital Electronics</strong> this offer is for especially for electronic students and this would be a huge opportunity and its also for 399/-</p>
+            <p>
+                What truly sets Techshr apart is our <strong>affordable pricing model</strong>. For just ₹399, students gain lifetime access to these courses, making quality education accessible to everyone. But that’s not all — we also provide <strong>free access to cutting-edge AI tools</strong>, enabling our learners to explore the rapidly evolving field of artificial intelligence without any additional cost.
+            </p>
+            <p class="quote">
+                Our Team, a representative of Techshr, <em>"Our goal is simple: we aim to make every student capable. With the right guidance and tools, success is not just a dream — it’s inevitable. <strong>Kabil bano, kamyabi jhak maar ke aayegi</strong> (Be capable, and success will follow)."</em>
+            </p>
+            <p>
+                Join Techshr today and take the first step toward a brighter, smarter future!
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            Got questions? We're here to help! Reach out to us for any queries related to our courses, registration, or anything else you'd like to know. 
+            At Techshr, we value your feedback and are dedicated to providing the best learning experience. 
+            Whether you're looking for more details or need assistance, feel free to contact us through the provided email or phone. 
+            Let’s work together to shape your future!<br>
+            you can contact us with our personal mails if you have any doubts
+           <h6> mujeebworks7@gmail.com </h6>
+           <h6> harinisince2004@gmail.com</h6>
+            click here to register for demo session :<a href="https://forms.gle/zQkj5ewSLNDTtUuj6">demosession</a></p>
+        </p>
+        <div class="contact-details">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>Email: beatechshrno1@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>Phone:9381282521,7780698353</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Address: Techshr,Hyd,warangal , India</span>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Techshr. All rights reserved.</p>
+    </footer>
+    <script>
+     
+
+    // JavaScript for Carousel Navigation
+const track = document.querySelector('.carousel-track');
+const courses = document.querySelectorAll('.course');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+const totalCourses = courses.length;
+
+let currentIndex = 0;
+
+// Function to update the carousel track position
+function updateCarouselPosition() {
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+}
+
+// Event Listeners for Buttons
+prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+        updateCarouselPosition();
+    }
+});
+
+nextBtn.addEventListener('click', () => {
+    if (currentIndex < totalCourses - 1) {
+        currentIndex++;
+        updateCarouselPosition();
+    }
+});
+// Add touch functionality for smaller screens
+let startX = 0;
+let currentX = 0;
+
+track.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+});
+
+track.addEventListener('touchmove', (e) => {
+    currentX = e.touches[0].clientX;
+});
+
+track.addEventListener('touchend', () => {
+    if (startX - currentX > 50) {
+        // Swipe left
+        nextButton.click();
+    } else if (currentX - startX > 50) {
+        // Swipe right
+        prevButton.click();
+    }
+});
+
+    function openPopup(popupId) {
+        const popup = document.getElementById(popupId);
+        popup.style.display = "flex";
+    }
+    
+    function closePopup(popupId) {
+        const popup = document.getElementById(popupId);
+        popup.style.display = "none";
+    }
+    document.addEventListener("DOMContentLoaded", () => {
+    const text = "click here to register for the courses";
+    const typingElement = document.getElementById("typing-text");
+    let index = 0;
+
+    function typeText() {
+        if (index < text.length) {
+            typingElement.textContent += text.charAt(index);
+            index++;
+            setTimeout(typeText, 100); // Adjust speed of typing here
+        }
+    }
+
+    typeText();
+});
+// Toggle menu functionality
+// Toggle menu functionality
+const menuToggle = document.getElementById("menu-toggle");
+const nav = document.querySelector("nav");
+
+menuToggle.addEventListener("click", () => {
+    nav.classList.toggle("active"); // Toggles the 'active' class
+});
+
+
+
+
+    </script>
+</body>
+</html>
